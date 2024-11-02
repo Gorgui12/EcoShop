@@ -1,6 +1,7 @@
 
 
-export function Footer(){
+
+export function Cart(){
     return(
         <div>
 
