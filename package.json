@@ -1,7 +1,7 @@
 {
-  "homepage": "https://Gorgui12.github.io/EcoShop",
   "name": "eco-shop",
   "version": "0.1.0",
+   "homepage": "https://Gorgui12.github.io/EcoShop",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -24,6 +24,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+
   },
   "eslintConfig": {
     "extends": [
