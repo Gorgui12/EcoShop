@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/EcoShop/static/js/main.fc3bd193.js",
+    "main.js": "/EcoShop/static/js/main.db890709.js",
     "static/js/453.70d7af05.chunk.js": "/EcoShop/static/js/453.70d7af05.chunk.js",
     "static/media/HeroBackground.jpg": "/EcoShop/static/media/HeroBackground.65993b56f1284dcc0a5a.jpg",
     "index.html": "/EcoShop/index.html",
-    "main.fc3bd193.js.map": "/EcoShop/static/js/main.fc3bd193.js.map",
+    "main.db890709.js.map": "/EcoShop/static/js/main.db890709.js.map",
     "453.70d7af05.chunk.js.map": "/EcoShop/static/js/453.70d7af05.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.fc3bd193.js"
+    "static/js/main.db890709.js"
   ]
 }
