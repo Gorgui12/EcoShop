@@ -36,7 +36,7 @@ export function Product() {
   const {updateCart} = useContext(CartContext);
   const [Product, setProduct] = useState([]);
   const [isDataLoading, setIsDataLoading] = useState(false)
-  const [Error, setError] = useState(false);
+ // const [Error, setError] = useState(false);
 
   useEffect(() => {
     async function ProductResponse() {
@@ -47,7 +47,7 @@ export function Product() {
         console.log(result);
         setProduct(result);
       } catch (Error) {
-        setError(true);
+   //     setError(true);
       }finally{
        setIsDataLoading(false)
       }

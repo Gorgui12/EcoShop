@@ -1,6 +1,6 @@
 
 import React, { useRef, useEffect, useState } from 'react';
-import styled, { keyframes } from 'styled-components'
+import styled from 'styled-components'
 import HeroBackground from '../../assets/HeroBackground.jpg'
 import colors from '../../outils/styles/colors'
 

@@ -41,7 +41,7 @@ display: flex;
 `
 
 export function ShopingCart({productImage, productName, productDescription, productPrice, productAmount}){
-    const {Cart}  = useContext(CartContext)
+   // const {Cart}  = useContext(CartContext)
     
     return(
       <ShopingCartContainer>

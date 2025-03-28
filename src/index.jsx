@@ -3,7 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { CartProvider } from './outils/Contexte/cartContext';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
 import { Header } from './Components/Header';
 import { Footer } from './Components/Footer';
 import { Home } from './Pages/Home';
@@ -24,7 +24,7 @@ div {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Router>
+    <Router basename="/EcoShop">
       <CartProvider>
       <GlobalStyle/>
       <Header />

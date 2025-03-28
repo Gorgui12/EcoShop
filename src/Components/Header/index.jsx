@@ -1,9 +1,10 @@
 import styled from 'styled-components'
 import { CartContext } from "../../outils/Contexte/cartContext";
 import {useNavigate} from 'react-router-dom'
-
 import {FaShoppingCart} from 'react-icons/fa'
 import { useContext } from 'react';
+import {Link} from 'react-router-dom';
+
 
 
 
@@ -87,9 +88,9 @@ const handleCartClick = ()=> {
         <HeaderContainer>
       <LogoContainer>EcoShop</LogoContainer>
       <NavLinks>
-        <a href="/">Accueil</a>
-        <a href="/produit">Produits</a>
-        <a href="/contact">Contact</a>
+        <Link to="/">Accueil</Link>
+        <Link to="/produit">Produits</Link>
+        <Link to="/contact">Contact</Link>
       </NavLinks>
       <CartIcon onClick={handleCartClick}>
       <FaShoppingCart className="icon" to='/cart' />
